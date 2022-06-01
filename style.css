@@ -361,11 +361,7 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-/* ajout de la zone minimum cliquable sur mobile dans le footer MAJ04*/
-.link-partner div ul li {
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
+
 /* maj couleur des liens dans le footer MAJ03*/
 .link-partner div ul li a {
     color: #000000 !important;
