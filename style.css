@@ -362,12 +362,15 @@ a:hover {
     z-index: 2;
 }
 
-/* ajout de la zone minimum cliquable sur mobile*/
+/* ajout de la zone minimum cliquable sur mobile dans le footer*/
 .link-partner div ul li {
     padding-top: 16px;
     padding-bottom: 16px;
 }
-
+/* maj couleur des liens dans le footer*/
+.link-partner div ul li a {
+    color: #000000 !important;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
