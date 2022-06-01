@@ -362,6 +362,12 @@ a:hover {
     z-index: 2;
 }
 
+/* ajout de la zone minimum cliquable sur mobile*/
+.link-partner div ul li {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -677,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px; /*font-size: 11px; maj pour accessibilite contraste*/
 }
 
 .tight-width-whitespace {
@@ -736,7 +742,12 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF !important;
+}
+
+/*rajout de cette classe pour le contraste accessibilite*/
+.black {
+    color: #000000 !important; 
 }
 
 .portfolio-thumb {
@@ -780,7 +791,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000 !important; /*color: #FFFFFF!important; modif pour contraste trop faible*/
 }
 
 .btn-atomic-tangerine:hover {
