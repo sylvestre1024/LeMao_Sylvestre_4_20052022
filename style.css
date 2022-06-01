@@ -362,7 +362,12 @@ a:hover {
     z-index: 2;
 }
 
-/* maj couleur des liens dans le footer MAJ03*/
+/* ajout de la zone minimum cliquable sur mobile dans le footer*/
+.link-partner div ul li {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+/* maj couleur des liens dans le footer*/
 .link-partner div ul li a {
     color: #000000 !important;
 }
@@ -681,7 +686,7 @@ a {
 }
 
 p {
-    font-size: 14px; /*font-size: 11px; maj pour accessibilite contraste MAJ03*/
+    font-size: 14px; /*font-size: 11px; maj pour accessibilite contraste*/
 }
 
 .tight-width-whitespace {
@@ -743,7 +748,7 @@ h4 {
     color: #FFFFFF !important;
 }
 
-/*rajout de cette classe pour le contraste accessibilite MAJ03*/
+/*rajout de cette classe pour le contraste accessibilite*/
 .black {
     color: #000000 !important; 
 }
@@ -789,7 +794,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #000000 !important; /*color: #FFFFFF!important; modif pour contraste trop faible MAJ03*/
+    color: #000000 !important; /*color: #FFFFFF!important; modif pour contraste trop faible*/
 }
 
 .btn-atomic-tangerine:hover {
