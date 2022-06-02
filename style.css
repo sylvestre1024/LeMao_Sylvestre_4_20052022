@@ -362,14 +362,14 @@ a:hover {
     z-index: 2;
 }
 
-/* ajout de la zone minimum cliquable sur mobile*/
+/* ajout de la zone minimum cliquable sur mobile MAJ 04*/
 .link-partner div ul li {
     padding-top: 16px;
     padding-bottom: 16px;
 }
 
-/* maj couleur des liens dans le footer*/
-.link-partner div ul li a {
+/* maj couleur des liens dans le footer MAJ 03*/
+.link-partner div ul a {
     color: #000000 !important;
 }
 
@@ -520,7 +520,11 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
-
+/* ajout de la zone minimum du formulaire cliquable sur mobile MAJ 04*/
+.form-group {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -688,7 +692,7 @@ a {
 }
 
 p {
-    font-size: 14px; /*font-size: 11px; maj pour accessibilite contraste*/
+    font-size: 14px; /*font-size: 11px; maj pour accessibilite contraste MAJ 03*/
 }
 
 .tight-width-whitespace {
