@@ -621,12 +621,12 @@ a[data-lightbox]:hover img {
     opacity: 1.0;
     color: #FFF;
 }
-
+/*integration Fontawesome maison et donc personnalisation MAJ 08*/
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-    color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, 1) !important;
+    background: #F3976C !important;
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
@@ -879,7 +879,25 @@ h4 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
+/*integration Fontawesome maison MAJ 08*/
+.fa {
+    display: inline-block;
+    font-size: 20px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 900;
+    padding-bottom: 4px;
+    color: #000 !important;
+}
+/*integration Fontawesome maison MAJ 08*/
+.fa-chevron-right:before {
+    content: ">";
+}
+/*integration Fontawesome maison MAJ 08*/
+.fa-chevron-left:before {
+    content: "<";
+}
 
 @media (max-width: 1024px) {
     .bloc {
