@@ -47,9 +47,9 @@ a:hover {
 .bloc-lg {
     padding: 100px 50px;
 }
-
+/*maj texte sous forme image MAJ 08*/
 .bloc-md {
-    padding: 50px;
+    padding: 70px;
 }
 
 .bloc-sm {
@@ -844,6 +844,42 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.avif");
 }
+/*ajout texte sous forme image MAJ 08*/
+.para-niv1, .para-niv3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 23px;
+    line-height: 1.1em;
+    letter-spacing: -0.05em;
+    font-weight: 500;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-top: 0;
+}
+/*ajout texte sous forme image MAJ 08*/
+.para-niv2, .para-niv2-sign {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.1em;
+    letter-spacing: -0.06em;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-bottom: 0;
+}
+.para-niv2 {
+    padding-top: 10px;
+}
+    /*ajout texte sous forme image MAJ 08*/
+    .para-niv2-sign {
+    font-style: normal;
+    font-weight: 300;
+}
+.para-niv3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
