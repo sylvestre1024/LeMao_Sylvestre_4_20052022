@@ -680,10 +680,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 14px; /*font-size: 11px; maj pour accessibilite contraste MAJ 03*/
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -743,11 +739,6 @@ h4 {
     color: #FFFFFF !important;
 }
 
-/*rajout de cette classe pour le contraste accessibilite*/
-.black {
-    color: #000000 !important; 
-}
-
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -785,11 +776,6 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
-}
-
-.btn-atomic-tangerine {
-    background: #F3976C;
-    color: #000000 !important; /*color: #FFFFFF!important; modif pour contraste trop faible*/
 }
 
 .btn-atomic-tangerine:hover {
