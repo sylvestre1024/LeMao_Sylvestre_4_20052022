@@ -362,12 +362,6 @@ a:hover {
     z-index: 2;
 }
 
-/* ajout de la zone minimum cliquable sur mobile MAJ 04*/
-.link-partner div ul li {
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-
 /* maj couleur des liens dans le footer MAJ 03*/
 .link-partner div ul a {
     color: #000000 !important;
@@ -519,11 +513,6 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-}
-/* ajout de la zone minimum du formulaire cliquable sur mobile MAJ 04*/
-.form-group {
-    padding-top: 16px;
-    padding-bottom: 16px;
 }
 .scrollToTop {
     width: 40px;
