@@ -651,13 +651,17 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
 }
-
+/*Liens qui manquent de contraste MAJ 03*/
+a {
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #000000 !important;
+}
 .container {
     max-width: 1000px;
 }
